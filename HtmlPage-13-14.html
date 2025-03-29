@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Tích hợp các tiện ích Internet</h1>
+    <h2>Tiện tích internet khác</h2>
+    <h3>Tạo nút Like và Share</h3>
+    <fieldset>
+        <legend> Dang nhap vao tai khoan FaceBook </legend>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous"
+                src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v22.0&appId=1197069438687736">
+        </script>
+        <div class="fb-login-button" data-width="10" data-size="" data-button-type="" data-layout="" data-auto-logout-link="true" data-use-continue-as="true"></div>
+    </fieldset>
+
+
+    <fieldset>
+        <legend> Like & Share FaceBook </legend>
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=20&layout&action&size&share=true&height=35&appId=1197069438687736" width="20" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v22.0&appId=1197069438687736"></script>
+
+        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="20" data-layout="" data-action="" data-size="" data-share="true"></div>
+    </fieldset>
+
+    <fieldset>
+        <legend> Comment </legend>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v22.0&appId=1197069438687736"></script>
+
+        <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100" data-numposts="5"></div>
+    </fieldset>
+
+
+
+</body>
+</html>
